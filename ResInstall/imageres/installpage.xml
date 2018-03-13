@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Windows>
+   <VerticalLayout name="intall" width="598" height="448" bkcolor="#FFFFFFFF">
+	   <VerticalLayout height="280"   bkimage="bg.png">
+			<HorizontalLayout height ="30" >
+				<Control />
+				<HorizontalLayout height="23" width="25">
+					<Button name="btn_close" width="25" height="23" normalimage="file='close.png' source='0,0,25,23'" hotimage="file='close.png' source='0,23,25,46'" pushedimage="file='close.png' source='0,46,25,69'"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+		</VerticalLayout >
+	  <Control />
+	  
+	  <HorizontalLayout  inset="15,0,0,0" height ="5">
+		 <Progress name="install_define_progress"  width="568"   height="5" bkcolor="#FFDEDEDE" disabledtextcolor="#FFA7A6AA" align="center" foreimage="progressbar.png" min="0" max="100" value="1" hor="true"/>
+	  </HorizontalLayout>
+	  
+	  <Control height="5" />
+	  
+	  <HorizontalLayout  height="15" inset="15,0,15,0" >
+	   <Label text="正在释放安装包..."  name="install_tip" textcolor="#FF565656"  width="100"  />
+		<Control />
+	   <Label text="1%" name="intall_percent" width="30"  textcolor="#FF565656" align="right" />
+	  </HorizontalLayout>
+	  <Control height="35" />
+	</VerticalLayout >
+</Windows>

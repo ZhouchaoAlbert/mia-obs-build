@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+	<VerticalLayout name="unmain_page" width="598" height="448" bkcolor="#FFFFFFFF">
+	   <VerticalLayout height="280"  bkimage="bg.png">
+			<HorizontalLayout height ="30" >
+				<Control />
+				<HorizontalLayout height="23" width="25">
+					<Button name="btn_close" width="25" height="23" normalimage="file='close.png' source='0,0,25,23'" hotimage="file='close.png' source='0,23,25,46'" pushedimage="file='close.png' source='0,46,25,69'"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+	   </VerticalLayout >
+	   <Control />
+		
+	
+	  	<HorizontalLayout height="59">
+			<Control />
+			   <Button name="btn_unmain_sure" text="立即卸载" font="4"  width="247" textcolor="#FFFFFFFF" normalimage="button_normal.png" hotimage="button_hover.png" pushedimage="button_press.png" />
+			<Control />
+		</HorizontalLayout>
+		<Control height= "64"/>
+   </VerticalLayout>
+</Windows>
